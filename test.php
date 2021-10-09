@@ -7,6 +7,3 @@
     } 
 ?>
 
-passowrd bd aziRiseuRJl12qqP
-login admin_dispirika
-password XPe(tr*6WxtaDCIrLY
