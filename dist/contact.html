@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispirika</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="burger-btn">
+            <button class="burger">
+                <span></span>
+            </button>
+        </div>
+        <nav>
+            <ul class="nav-items hide-menu">
+                <li class="nav-item"><a class="dimsp-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="dimsp-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="dimsp-link" href="typesOfTherapies.html">Виды терапий</a></li>
+                <li class="nav-item"><a class="dimsp-link" href="diplomaАndСertificate.html">Образование</a></li>
+                <li class="nav-item"><a class="dimsp-link" href="contact.html">Записаться</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="dimsp-title">Наши контакты и как записаться</h1>
+        <section class="contact-info">
+            <div class="contact-info__text">
+                <ul class="text-lists">
+                    <li class="text-list adress-disp">
+                       Адрес: город Смоленск, улица Кошена дом 1, офис 701
+                    </li>
+                    <li class="text-list phone-disp">
+                        Телефон: <a href="tel:88005553535">88005553535</a>
+                    </li>
+                    <li class="text-list e-mail-disp">
+                        Написать: <a href="mailto:example@mail.ru">example@mail.ru</a>
+                    </li>
+                    <li class="text-list time-work-disp">
+                        <h3 class="time-work-disp__title">Мы работаем:</h3>
+                        <span class="time-work-disp__week">пн-пт</span>
+                        <span class="time-work-disp__gap">c 9:00 до 18:00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact-info__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.649517449151!2d37.536978116088456!3d55.747218399889775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdd017303b9%3A0xd1f63f945a2450c2!2z0JzQvtGB0LrQstCwINCh0LjRgtC4!5e0!3m2!1sru!2sru!4v1632482224752!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h3 class="contact-form__title">Если остались вопросы заполните форму и мы с вами созвонимся</h3>
+            <div class="contact-form__body">
+                <form action="" method="post">
+                    <label for="visitor-name" class="label-disp">Ваше имя:</label>
+                    <input type="text" name="visitor-name" id="visitor-name" class="input-form-disp">
+                    <label for="visitor-phone" class="label-disp">Ваш телефон:</label>
+                    <input type="text" name="visitor-phone" id="visitor-phone" class="input-form-disp">
+                    <label for="visitor-text" class="label-disp">Дополнительная информация:</label>
+                    <textarea name="visitor-text" id="visitor-text" cols="30" rows="10" class="textarea-form-disp"></textarea>
+                    <input type="submit" value="Записаться" class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover">
+                </form>
+                <div class="contact-form__img">
+                    <img src="img/contarct/contact-img.webp" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-dimsp footer-body">
+            <img src="img/logos/mainLogo.png" alt="" class="footer-logo">
+            <ul class="footer-info">
+                <li class="footer-info__title">Информация</li>
+                <li class="footer-info-list"><a class="dimsp-link" href="#">Договор-оферта</a></li>
+                <li class="footer-info-list"><a class="dimsp-link" href="#">Пользовательское соглашение</a></li>
+                <li class="footer-info-list"><a class="dimsp-link" href="#">Политика обработки персональных данных  </a></li>
+            </ul>
+            <ul class="footer-curses">
+                <li class="footer-curses__title">Онлайн-Курсы</li>
+                <li class="footer-curse"><a class="dimsp-link dimsp-link_font-litle" href="">От диплома на стене до первых денег. Курс для самостоятельного изучения</a></li>
+                <li class="footer-curse"><a class="dimsp-link dimsp-link_font-litle" href="">Успешная частная практика. Программа с индивидуальным сопровождением</a></li>
+            </ul>
+            <ul class="footer-contacts">
+                <li class="contacts-email"><a class="dimsp-link dimsp-link_font-contact" href="mailto:exmaple@mail.ru">exmaple@mail.ru</a></li>
+                <li class="contacts-email"><a class="dimsp-link dimsp-link_font-contact" href="mailto:exmaple-second@mail.ru">olga.koshkina@chastnayapraktika.com.</a></li>
+                <li class="contacts-phone"><a class="dimsp-link dimsp-link_font-contact" href="tel:88005553535">88005553535</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

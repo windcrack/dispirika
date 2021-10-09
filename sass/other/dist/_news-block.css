@@ -1,0 +1,39 @@
+.news-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-block {
+  max-width: 920px;
+  margin: 62px auto;
+}
+
+.news-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.news-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 47px 0;
+}
+
+.news-date {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.news-paginations {
+  display: flex;
+}
+
+.dimsp-paginations {
+  display: flex;
+  list-style: none;
+}
+
+/*# sourceMappingURL=_news-block.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_individual.sass"],"names":[],"mappings":"AAAA,YACE,QAAS,KACT,eAAgB,OAChB,YAAa,OAGf,gBACE,MAAO,MAGT,kBACE,UAAW","file":"_individual.min.css","sourcesContent":[".individual\n    display: flex\n    flex-direction: column\n    align-items: center\n    &-img\n        width: 544px\n    &-descr\n        max-width: 920px"]}

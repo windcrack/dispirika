@@ -1,0 +1,45 @@
+.we-in-social {
+  margin-bottom: 92px;
+}
+
+.we-in-social__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 92px auto 0;
+}
+
+.we-in-social__icons {
+  flex-basis: 50%;
+}
+
+.we-in-social__text {
+  flex-basis: 50%;
+  margin-bottom: 52px;
+}
+
+.we-in-social__text .social-text__main {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.we-in-social__text .social-text__sub {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  justify-content: end;
+  align-items: center;
+}
+
+.social-item {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=_in-social.css.map */

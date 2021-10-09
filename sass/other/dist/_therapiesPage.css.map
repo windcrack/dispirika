@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_therapiesPage.sass"],"sourcesContent":[".therapies\n    display: flex\n.therapie\n    &-body\n        display: flex\n        flex-direction: column\n        justify-content: center\n        max-width: 350px"],"file":"_therapiesPage.css"}

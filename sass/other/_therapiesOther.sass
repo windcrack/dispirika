@@ -1,0 +1,38 @@
+.individual, .couple, .supervision
+    display: flex
+    flex-direction: column
+    align-items: center
+    
+    &-img
+        width: 544px
+        margin: 25px 0 88px
+    &-descr
+        width: 920px
+        margin-bottom: 18px
+        &__title
+            height: 45px
+            background: $colorLigthGreen
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 5px
+            cursor: pointer
+            i
+                margin-left: auto
+                margin-right: 25px
+                font-size: 36px
+                padding-bottom: 15px
+                transition:  all .5s
+            .rotate-arrow
+                transform: rotate(180deg)
+        &__text
+            margin-left: 15px
+        &__sub-text
+            background: $colorGrey
+            padding: 18px 10px
+            font-weight: normal
+            font-size: 18px
+            line-height: 21px
+            border-radius: 0 0 5px 5px
+.ancors-therapies
+    margin: 50px 0

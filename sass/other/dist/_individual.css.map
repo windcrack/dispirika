@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_individual.sass"],"sourcesContent":[".individual\n    display: flex\n    flex-direction: column\n    align-items: center\n    &-img\n        width: 544px\n    &-descr\n        max-width: 920px"],"file":"_individual.css"}

@@ -1,0 +1,2 @@
+.nav-items,nav{display:flex;margin:0 auto}header{height:50px;display:flex;background:rgba(0,0,0,.5);position:sticky;top:0}nav{justify-content:center;align-items:center}.nav-items{align-items:center;justify-content:center;list-style:none}.nav-item{margin-right:11px}.nav-item:last-child{margin-right:0}
+/*# sourceMappingURL=_header.min.css.map */
