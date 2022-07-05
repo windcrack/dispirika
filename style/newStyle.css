@@ -1,0 +1,21 @@
+.hide {
+  display: none;
+}
+.tabs-block{
+    display: flex;
+}
+
+.tabs-lists{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.tab{
+    padding: 12px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}

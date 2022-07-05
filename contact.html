@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dispirika</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/newStyle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 </head>
@@ -53,7 +54,13 @@
         </section>
         <section class="contact-form">
             <h3 class="contact-form__title">Если остались вопросы заполните форму и мы с вами созвонимся</h3>
-            <div class="contact-form__body">
+            <div class="tabs-block">
+                <ul class="tabs-lists">
+                    <li class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover tab-karina">Карина</li>
+                    <li class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover tab-dima">Дима</li>
+                </ul>
+            </div>
+            <div class="contact-form__body from-for-karina">
                 <form action="" method="post">
                     <label for="visitor-name" class="label-disp">Ваше имя:</label>
                     <input type="text" name="visitor-name" id="visitor-name" class="input-form-disp">
@@ -61,7 +68,21 @@
                     <input type="text" name="visitor-phone" id="visitor-phone" class="input-form-disp">
                     <label for="visitor-text" class="label-disp">Дополнительная информация:</label>
                     <textarea name="visitor-text" id="visitor-text" cols="30" rows="10" class="textarea-form-disp"></textarea>
-                    <input type="submit" value="Записаться" class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover">
+                    <input type="submit" value="Записаться к Карине" class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover">
+                </form>
+                <div class="contact-form__img">
+                    <img src="img/contarct/contact-img.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="contact-form__body from-for-dima hide">
+                <form action="" method="post">
+                    <label for="visitor-name" class="label-disp">Ваше имя:</label>
+                    <input type="text" name="visitor-name" id="visitor-name" class="input-form-disp">
+                    <label for="visitor-phone" class="label-disp">Ваш телефон:</label>
+                    <input type="text" name="visitor-phone" id="visitor-phone" class="input-form-disp">
+                    <label for="visitor-text" class="label-disp">Дополнительная информация:</label>
+                    <textarea name="visitor-text" id="visitor-text" cols="30" rows="10" class="textarea-form-disp"></textarea>
+                    <input type="submit" value="Записаться к Диме" class="button-dimsp button-dimsp_width255 button-dimsp_center button-dimsp_height36 button-dimsp_hover">
                 </form>
                 <div class="contact-form__img">
                     <img src="img/contarct/contact-img.webp" alt="" srcset="">
